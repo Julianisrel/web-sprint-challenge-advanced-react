@@ -1,4 +1,5 @@
 // write your custom hook here to control your checkout form
+
 import React, { useState } from 'react';
     const useForm = ( initialValue ) => {
         const [ showSuccessMessage, setShowSuccessMessage ] = useState( false );
@@ -20,4 +21,3 @@ import React, { useState } from 'react';
     }
 
     export default useForm;
-© 2020 GitHub, Inc.
