@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
+
 const initialValue = {
   firstName: "",
   lastName: "",
-  address: "",
+  address: "", 
   city: "",
   state: "",
   zip: "",
@@ -28,7 +29,7 @@ const CheckoutForm = (props) => {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} data-testid="form">
         <h2>Checkout Form</h2>
         <label>
           First Name:
